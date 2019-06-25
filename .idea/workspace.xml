@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5674b39-b157-4ace-94fe-f8c7d52ea242" name="Default Changelist" comment="" />
+    <list default="true" id="c5674b39-b157-4ace-94fe-f8c7d52ea242" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/0254a6fb5aa317a9599347048ed9beee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/0d935c0d81a0f4eb1353aeb3894e965d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/11767b26434adb01a43301455b836d7f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/16c80cab1c5a41979ad23d3087b78dff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/173d131f7186a40f301604d6624ea5db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/1e09cd7fb4811612f1574b8ccb118359.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/1e93ee18eb8f195ff0824d201495fef4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/20a1f62434badd61aac3a873efc758b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/21d60ffe662aced917cbd2943950eef7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/249f914147060329a1fa0c7616b04366.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/2c10de4cda2cff7b6b3cace875fe3a99.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/36a287767084d558c616b364020c7bba.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/3e6cd3332d3f484ff97aba59142cc143.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/3ebf4fb13345907180c5ad1f38454f36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/3ec70ee09e23213721c001f9005f6606.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/3ee3141d40d78bae46482c8e33e92bd3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/495735d1a4ef7518164c50f6d2994e93.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/516428b40b37b83cd21e7a509387bda2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/5bd91c1cd14b88019cd6740e9cc5b49a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/5cae3b637cf0a383787c6b0032a6130d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/693f797fc10055e524bd34d5eaede69c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/6c2faf3ad56464a4d5d2fedba2297516.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/6db5fa638d76ba2229028c9f11b55d46.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/79f7d96fc8dd3d24fe58cc02548aa85d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/7d35374a2bfbf54722f15b30c2b3b452.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/80fad943c40e9b7c5b786909fc7b9da8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/8104d7e2947bb34cfe4e55f433bfe0f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/850257b14a46f4352a0f0ba3f7a7ea4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/85cbab510c0d2ccc96048fe1fc0fc773.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/8a493a2ca85ab3b0e39c1de1daf4c300.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/8e8773e186d539098490f11f40b5f8a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/989da99effd9aa584d943dcb49bf11ce.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/9ec38735210c14d8f4cf13320592f176.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/a0c5587db93c647f51c5c2dfa258a26b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/ad610368e82eb7540686116c89813c19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/c8f23f9d60e1699613e7da7b01921b71.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/ca25f1e5739c2ac1c77177719184568f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/d6f4bac89121f0cb898af644fe163760.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/d928dd5293574786b2629e0fa92ca598.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/d9dd1cd4a86ffb6822f50a4abefe62a9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/da71b721d0c048bd828896456942b561.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/db4b8ab98d70008301bdea16785f76d7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/e26f522a22501a1d56c41e2089f3cfe2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/ea64b85e7f43ffa86d10d547dbc376c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/f23c1b736aac3ed5dda18e7755fa4d8c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/f3042596f8d42790fe3427d1724cab08.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/f5547257d430b4e5583b3dbdc84ae1e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/f846c93c873c42d4ee78b539dc0b75b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/f95637908f86607a7f52fee8873f78a5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/fa77ceead1938eb2b7402fff96201b56.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.sina.com.cn/fc0e00f8029e52262d21576ce7c7cbc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc0.cn/559d3149c344ffd162a6b5397e97c9b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/CcoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/GithubRepoPageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/MyProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/SinaBlogProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/VisualHuntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiwenqi/WebmagicUtilP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiwenqi/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/webmagic.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/CcoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/GithubRepoPageProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/MyProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/SinaBlogProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/VisualHuntTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xiwenqi/WebmagicUtilP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/xiwenqi/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,7 +252,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-44" />
     <option name="y" value="41" />
     <option name="width" value="1182" />
@@ -231,6 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../beaconselspider" />
@@ -348,15 +430,15 @@
       <workItem from="1561275751162" duration="2314000" />
       <workItem from="1561284851975" duration="11665000" />
       <workItem from="1561338496900" duration="18107000" />
-      <workItem from="1561425825798" duration="9895000" />
+      <workItem from="1561425825798" duration="10493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41981000" />
+    <option name="totallyTimeSpent" value="42579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65066665" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" sideWeight="0.34933335" side_tool="true" visible="true" weight="0.18683812" />
