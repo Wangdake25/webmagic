@@ -3,16 +3,16 @@ package com.xiwenqi;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.pipeline.ConsolePipeline;
 import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
+import us.codecraft.webmagic.selector.Selectable;
 
 import java.util.List;
 
 public class VisualHuntTest implements PageProcessor {
     public static final String IMAGE_URL = "https://visualhunt.com/photo/\\d+";
     public static final String PAGE_URL = "https://visualhunt.com/photos/cat/\\d+";
-    public static final int page_nums = 2;
+    public static final int page_nums = 1;
     private Site site = Site
             .me()
             .setDomain("visualhunt.com")
@@ -20,9 +20,9 @@ public class VisualHuntTest implements PageProcessor {
 
     @Override
     public void process(Page page) {
-        //  抓取前10页
-        //  提取出当前的url  如果匹配的是page_url  提取出url中的最后一个数字  如果大于50  跳过
-        //     如果小于50  则加一之后加入抓取队列;
+        //  抓取前page_nums页
+        //  提取出当前的url  如果匹配的是page_url  提取出url中的最后一个数字  如果大于page_nums  跳过
+        //     如果小于page_nums  则加一之后加入抓取队列;
         //  匹配的是图片详情页的话  抓取所需要的信息即可
         String url = page.getUrl().toString();
         //System.out.println("url");
@@ -45,12 +45,15 @@ public class VisualHuntTest implements PageProcessor {
             }
          }
         if(page.getUrl().regex(IMAGE_URL).match()){
-            page.putField("Title",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[1]/h1"));
-            page.putField("ImageType",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[2]/div/div[5]/div/table/tbody/tr[1]/td[2]"));
-            page.putField("Tags",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[1]/div/div"));
-            // System.out.println("打印提取元素");
-
-
+            page.putField("Title",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[1]/h1/text()").get());
+            page.putField("ImageType",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[2]/div/div[5]/div/table/tbody/tr[1]/td[2]/text()").get());
+            // page.putField("Tags",page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[1]/div/div"));
+            List<Selectable> selectableList = page.getHtml().xpath("//*[@id=\"layout\"]/div[2]/div[1]/div/div/*").nodes();
+            StringBuilder s = new StringBuilder();
+            for(Selectable set : selectableList){
+                s.append(" "+ "'"+ set.xpath("//a/text()").get()+"'");
+            }
+            page.putField("Tags",s);
         }
         // System.out.println(page.getHtml());
 
@@ -62,7 +65,7 @@ public class VisualHuntTest implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new VisualHuntTest()).addUrl("https://visualhunt.com/photos/cat/1")
+        Spider.create(new VisualHuntTest()).addUrl("https://visualhunt.com/photo/9575/portrait-of-smiling-girl-lying-in-meadow-under-tree")
                 .addPipeline(new JsonFilePipeline("D:\\ideaproject/webmagic"))
                 .run();
     }
